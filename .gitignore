@@ -1,0 +1,42 @@
+# Roles and collections from Ansible Galaxy
+roles/
+collections/
+
+# SSH keys
+*.pem
+*.key
+*.pub
+.ssh/
+
+# Ansible vault password files
+.vault_pass.txt
+*.vault
+*.vault.yml
+
+# Inventory files with sensitive data
+inventory/*.ini
+inventory/*.yml
+inventory/host_vars/
+inventory/group_vars/
+
+# Local cache and log files
+*.log
+*.retry
+*.tmp
+*.bak
+
+# Python virtual environments
+.env/
+.venv/
+__pycache__/
+*.pyc
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# System-specific
+*.tar.gz
+*.zip
